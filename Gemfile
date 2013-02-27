@@ -27,23 +27,11 @@ gem 'haml-rails'
 gem 'sofa'
 gem 'sidekiq'
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
 
 group :development, :test do
   gem "rspec-rails"
 end
 
 gem "neo4j", ">= 2.2.3"
+
+gem "ruby-tmdb3"
