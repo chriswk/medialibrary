@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Isharelib::Application.load_tasks
+MediaLibrary::Application.load_tasks
